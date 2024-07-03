@@ -1,0 +1,346 @@
+{
+  "dishes": [
+    {
+      "id": 0,
+      "name": "Cơm Tấm",
+      "image": "images/comtam.png",
+      "category": "mains",
+      "label": "Hot",
+      "price": "40.000 vnđ",
+      "featured": true,
+      "description": "Là món ăn nổi tiếng của miền Nam Việt Nam, bao gồm cơm nếp và thịt heo rang, trứng hấp, dưa leo xào, và nước mắm chấm."                    
+  },
+  {
+      "id": 1,
+      "name": "Bún Thịt Nướng",
+      "image": "images/bunthitnuong.png",
+      "category": "appetizer",
+      "label": "",
+      "price": "45.000 vnđ",
+      "featured": false,
+      "description": "Là một món ăn phổ biến ở miền Nam Việt Nam, có thành phần chính bao gồm bún, thịt nướng, rau sống như rau thơm, rau xà lách, dưa leo, đậu phụ, và nước mắm chua ngọt."
+  },
+  {
+      "id": 2,
+      "name": "Hủ Tíu",
+      "image": "images/hutiu.png",
+      "category": "appetizer",
+      "label": "",
+      "price": "45.000 vnđ",
+      "featured": false,
+      "description": "Là một món ăn phổ biến ở miền Nam Việt Nam, được làm từ mì sợi mỏng kèm các loại thực phẩm như tôm, thịt heo, lòng đỏ lợn, và rau sống."
+  },
+  {
+      "id": 3,
+      "name": "Bánh Canh",
+      "image": "images/banhcanh.png",
+      "category": "appetizer",
+      "label": "",
+      "price": "40.000 vnđ",
+      "featured": false,
+      "description": "Là một món ăn phổ biến ở miền Nam Việt Nam, có nguồn gốc từ mì trứng và nước dùng nấu từ xương heo hoặc gà, thường được thêm vào các loại thực phẩm như tôm, thịt heo, chả lụa, và rau sống"
+  },
+  {
+      "id": 4,
+      "name": "Bánh Xèo",
+      "image": "images/banhxeo.png",
+      "category": "appetizer",
+      "label": "",
+      "price": "60.000 vnđ",
+      "featured": false,
+      "description": "Là một món ăn truyền thống của miền Nam Việt Nam. Đây là một loại bánh chiên mỏng, màu vàng vàng, được làm từ bột gạo, nước dừa và nước mắm."
+  },
+  {
+      "id": 5,
+      "name": "Gỏi Cuốn",
+      "image": "images/goicuon.png",
+      "category": "appetizer",
+      "label": "",
+      "price": "30.000 vnđ",
+      "featured": false,
+      "description": "Là một món ăn truyền thống của Việt Nam, đặc biệt phổ biến ở miền Nam. Đây là một món ăn nhẹ nhàng, thanh mát và giàu dinh dưỡng, thường được dùng làm món khai vị hoặc ăn nhẹ."
+  },
+  {
+      "id": 6,
+      "name": "Bún Mắm",
+      "image": "images/bunmam.png",
+      "category": "dessert",
+      "label": "",
+      "price": "40.000 vnđ",
+      "featured": false,
+      "description": "Là một món ăn đặc trưng của miền Tây Nam Bộ Việt Nam, nổi bật với hương vị đậm đà và thơm ngon từ mắm cá. Đây là một món ăn rất phổ biến và được nhiều người yêu thích nhờ sự hòa quyện tuyệt vời giữa các nguyên liệu tươi ngon và hương vị độc đáo của mắm."
+  }
+  ],
+  "comments": [
+    {
+      "id": 0,
+      "dishId": 0,
+      "rating": 5,
+      "comment": "Cơm tấm sườn nướng ở đây thật tuyệt vời!",
+      "author": "Nguyễn Minh",
+      "date": "2024-06-30T17:57:28.556094Z"
+  },
+  {
+      "id": 1,
+      "dishId": 0,
+      "rating": 4,
+      "comment": "Cơm tấm ngon, nhưng nước mắm hơi nhạt.",
+      "author": "Trần Thanh",
+      "date": "2024-06-30T17:57:28.556094Z"
+  },
+  {
+      "id": 2,
+      "dishId": 0,
+      "rating": 3,
+      "comment": "Cơm tấm ở đây ổn, nhưng chưa đặc biệt.",
+      "author": "Lê Anh",
+      "date": "2024-06-30T17:57:28.556094Z"
+  },
+  {
+      "id": 3,
+      "dishId": 1,
+      "rating": 4,
+      "comment": "Bún thịt nướng rất ngon, thịt mềm và đậm đà.",
+      "author": "Phạm Thảo",
+      "date": "2024-06-30T17:57:28.556094Z"
+  },
+  {
+      "id": 4,
+      "dishId": 1,
+      "rating": 2,
+      "comment": "Bún thịt nướng không ngon như mong đợi.",
+      "author": "Võ Minh",
+      "date": "2024-06-30T17:57:28.556094Z"
+  },
+  {
+      "id": 5,
+      "dishId": 2,
+      "rating": 5,
+      "comment": "Hủ tíu Nam Vang ở đây thật ngon, nước dùng đậm đà!",
+      "author": "Nguyễn Minh",
+      "date": "2024-06-30T17:57:28.556094Z"
+  },
+  {
+      "id": 6,
+      "dishId": 2,
+      "rating": 4,
+      "comment": "Hủ tíu ngon, nhưng hơi ít thịt.",
+      "author": "Trần Thanh",
+      "date": "2024-06-30T17:57:28.556094Z"
+  },
+  {
+      "id": 7,
+      "dishId": 2,
+      "rating": 3,
+      "comment": "Hủ tíu ở đây ổn, nhưng chưa đặc biệt.",
+      "author": "Lê Anh",
+      "date": "2024-06-30T17:57:28.556094Z"
+  },
+  {
+      "id": 8,
+      "dishId": 3,
+      "rating": 4,
+      "comment": "Bánh canh ở đây rất ngon, nước dùng đậm đà.",
+      "author": "Phạm Thảo",
+      "date": "2024-06-30T17:57:28.556094Z"
+  },
+  {
+      "id": 9,
+      "dishId": 3,
+      "rating": 2,
+      "comment": "Bánh canh không ngon như mong đợi.",
+      "author": "Võ Minh",
+      "date": "2024-06-30T17:57:28.556094Z"
+  },
+  {
+      "id": 10,
+      "dishId": 4,
+      "rating": 5,
+      "comment": "Bánh xèo ngon giòn, vị rất đặc trưng của miền Nam!",
+      "author": "Nguyễn Minh",
+      "date": "2024-06-30T17:57:28.556094Z"
+  },
+  {
+      "id": 11,
+      "dishId": 4,
+      "rating": 4,
+      "comment": "Bánh xèo ngon, nhưng hơi nhiều dầu.",
+      "author": "Trần Thanh",
+      "date": "2024-06-30T17:57:28.556094Z"
+  },
+  {
+      "id": 12,
+      "dishId": 4,
+      "rating": 3,
+      "comment": "Bánh xèo ở đây ổn, nhưng chưa đặc biệt.",
+      "author": "Lê Anh",
+      "date": "2024-06-30T17:57:28.556094Z"
+  },
+  {
+      "id": 13,
+      "dishId": 0,
+      "rating": 4,
+      "comment": "Cơm tấm sườn nướng ở đây rất ngon, nhưng hơi ít rau.",
+      "author": "Phạm Thảo",
+      "date": "2024-06-30T17:57:28.556094Z"
+  },
+  {
+      "id": 14,
+      "dishId": 1,
+      "rating": 2,
+      "comment": "Bún thịt nướng ở đây không ngon như mong đợi.",
+      "author": "Võ Minh",
+      "date": "2024-06-30T17:57:28.556094Z"
+  },
+  {
+      "id": 15,
+      "dishId": 2,
+      "rating": 5,
+      "comment": "Hủ tíu Nam Vang ở đây thật ngon, nước dùng đậm đà!",
+      "author": "Nguyễn Minh",
+      "date": "2024-06-30T17:57:28.556094Z"
+  },
+  {
+      "id": 16,
+      "dishId": 3,
+      "rating": 4,
+      "comment": "Bánh canh ở đây rất ngon, nước dùng đậm đà.",
+      "author": "Phạm Thảo",
+      "date": "2024-06-30T17:57:28.556094Z"
+  },
+  {
+      "id": 17,
+      "dishId": 4,
+      "rating": 3,
+      "comment": "Bánh xèo ở đây ổn, nhưng chưa đặc biệt.",
+      "author": "Lê Anh",
+      "date": "2024-06-30T17:57:28.556094Z"
+  },
+  {
+      "id": 18,
+      "dishId": 0,
+      "rating": 4,
+      "comment": "Cơm tấm sườn nướng ở đây rất ngon, nhưng hơi ít rau.",
+      "author": "Phạm Thảo",
+      "date": "2024-06-30T17:57:28.556094Z"
+  },
+  {
+      "id": 19,
+      "dishId": 1,
+      "rating": 2,
+      "comment": "Bún thịt nướng ở đây không ngon như mong đợi.",
+      "author": "Võ Minh",
+      "date": "2024-06-30T17:57:28.556094Z"
+  },
+  {
+      "id": 20,
+      "dishId": 5,
+      "rating": 5,
+      "comment": "Gỏi cuốn tươi ngon, hương vị thật tuyệt!",
+      "author": "Lê Hùng",
+      "date": "2024-07-03T12:00:00.000Z"
+  },
+  {
+      "id": 21,
+      "dishId": 5,
+      "rating": 4,
+      "comment": "Gỏi cuốn ngon, nhưng nước chấm hơi mặn.",
+      "author": "Trần Lan",
+      "date": "2024-07-03T12:00:00.000Z"
+  },
+  {
+      "id": 22,
+      "dishId": 6,
+      "rating": 5,
+      "comment": "Bún mắm đậm đà, hương vị rất đặc trưng của miền Tây!",
+      "author": "Nguyễn Thảo",
+      "date": "2024-07-03T12:00:00.000Z"
+  },
+  {
+      "id": 23,
+      "dishId": 6,
+      "rating": 4,
+      "comment": "Bún mắm ngon, nhưng hơi cay.",
+      "author": "Võ Hòa",
+      "date": "2024-07-03T12:00:00.000Z"
+  },
+  {
+      "id": 24,
+      "dishId": 5,
+      "rating": 3,
+      "comment": "Gỏi cuốn ổn, nhưng rau hơi héo.",
+      "author": "Phạm Minh",
+      "date": "2024-07-03T12:00:00.000Z"
+  },
+  {
+      "id": 25,
+      "dishId": 6,
+      "rating": 3,
+      "comment": "Bún mắm ổn, nhưng nước dùng hơi mặn.",
+      "author": "Lê Hương",
+      "date": "2024-07-03T12:00:00.000Z"
+  }
+  ],
+  "promotions": [
+    {
+      "id": 0,
+      "name": "Ưu Đãi Lớn Cuối Tuần",
+      "image": "/assets/images/buffet.png",
+      "label": "Mới",
+      "price": "100.000 vnđ",
+      "featured": true,
+      "description": "Khám phá các sự kết hợp hấp dẫn của miền Nam với lựa chọn sáu món hấp dẫn món tráng miệng ngon nhất. Nước mát và nước ngọt không giới hạn. Tất cả chỉ với giá 100.000 vnđ mỗi người"
+  }
+  ],
+  "leaders": [
+    {
+      "id": 0,
+      "name": "Hoàng Nguyễn",
+      "image": "/assets/images/chef2.png",
+      "designation": "Đầu Bếp Phụ",
+      "abbr": "CEO",
+      "featured": false,
+      "description": "Là một đầu bếp tài năng với sự đam mê mãnh liệt với nghề ẩm thực. Với khả năng sáng tạo và tinh tế, anh ấy đã đóng góp không nhỏ vào sự thành công của nhà hàng bằng những món ăn ngon và phong phú."
+  },
+  {
+      "id": 1,
+      "name": "Quân Nguyễn",
+      "image": "/assets/images/chef.png",
+      "designation": "Đầu bếp Trưởng",
+      "abbr": "EC",
+      "featured": true,
+      "description": "Là một đầu bếp tài năng với niềm đam mê sáng tạo ẩm thực đặc biệt. Với khả năng kết hợp hương vị truyền thống và hiện đại, Quân đã mang đến cho nhà hàng những món ăn ngon và độc đáo, làm hài lòng các thực khách từ khắp nơi trên thế giới."
+  },
+  {
+      "id": 2,
+      "name": "A",
+      "image": "/assets/images/staffg.png",
+      "designation": "Nhân viên Phục Vụ",
+      "abbr": "CFO",
+      "featured": false,
+      "description": "Là một nhân viên phục vụ năng động với sự nhiệt huyết và sự chuyên nghiệp trong công việc. Với thái độ phục vụ tận tâm, Nam luôn mang đến sự hài lòng và tiện nghi cho từng thực khách tại nhà hàng"
+  },
+  {
+      "id": 3,
+      "name": "B",
+      "image": "/assets/images/staff.png",
+      "designation": "Nhân Viên Phục Vụ",
+      "abbr": "CTO",
+      "featured": false,
+      "description": "Là một nhân viên phục vụ tài năng, luôn tươi cười và thân thiện với mỗi khách hàng. Với kinh nghiệm và sự quan tâm đến chi tiết, Hằng mang đến trải nghiệm ẩm thực đáng nhớ và thân thiện tại nhà hàng."
+  }
+  ],
+  "feedback": [
+    {
+      "firstname": "fdas",
+      "lastname": "afds",
+      "telnum": "134113",
+      "email": "dafdads@daffas.dfdafd",
+      "agree": true,
+      "contactType": "Email",
+      "message": "afadsfds",
+      "date": "2017-12-04T09:41:49.890Z",
+      "id": 1
+    }
+  ]
+}
